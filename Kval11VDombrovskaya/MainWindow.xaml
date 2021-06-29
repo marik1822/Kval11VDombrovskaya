@@ -1,0 +1,26 @@
+﻿<Window x:Class="Kval11VDombrovskaya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kval11VDombrovskaya"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        WindowStyle="None"
+        
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFB6F9F0" Offset="0.016"/>
+                <GradientStop Color="#FFD288DE" Offset="0.984"/>
+                <GradientStop Color="#FF634571" Offset="0.504"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Name="AddNews" Content="Добавить новость" HorizontalAlignment="Left" Margin="764,362,0,0" VerticalAlignment="Top" Width="437" Height="86" Background="#FFECDFDF" FontSize="36" FontFamily="SimSun-ExtB" Cursor="Hand" Click="AddNews_Click"/>
+        <Button Name="News"  Content="Просмотреть новости" HorizontalAlignment="Left" Margin="764,512,0,0" VerticalAlignment="Top" Width="437" Height="86" Background="#FFECDFDF" FontSize="36" FontFamily="SimSun-ExtB" Cursor="Hand" Click="News_Click"/>
+        <Button Name="Exit" Content="Выход" HorizontalAlignment="Left" Margin="764,672,0,0" VerticalAlignment="Top" Width="437" Height="86" Background="#FFECDFDF" FontSize="36" FontFamily="SimSun-ExtB" Click="Exit_Click" Cursor="Hand"/>
+      
+    </Grid>
+</Window>
